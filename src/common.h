@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Z80 Assembler for VGS-Zero
  * Copyright (c) 2024, Yoji Suzuki.
  * License under GPLv3: https://github.com/suzukiplan/vgsasm/blob/master/LICENSE.txt
@@ -16,6 +16,7 @@
 #include <map>
 #include <algorithm>
 #include <list>
+#include <string>
 
 enum class TokenType {
     None,            // トークンが無い
